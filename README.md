@@ -77,30 +77,31 @@ GND ────────── GND <br>
 
 "Установить таймер на X минут" – создание таймера
 
-Сущности в Home Assistant
-Сущность	Тип	Описание
-Media Player	media_player	Основной медиаплеер
-Mute	switch	Отключение звука
-Mute microphone	switch	Отключение микрофона
-Wake sound	switch	Звук при активации
-Status LED	light	Светодиодный индикатор
-Wake word sensitivity	select	Чувствительность wake word
-Noise Suppression Level	number	Уровень шумоподавления (0-4)
-Auto Gain	number	Автоматическое усиление (0-31)
-Volume Multiplier	number	Множитель громкости (0.5-3.0)
-Индикация состояний
-Состояние	Цвет LED	Эффект
-Инициализация	Зеленый	Fast Pulse
-Ожидание команды	Синий	Slow Pulse
-Слушание	Синий	Fast Pulse
-Обработка	Синий	Нет
-Ответ	Синий	Нет
-Ошибка	Красный	Fast Pulse
-Mute	Красный	Нет
-Таймер активен	Белый	Slow Pulse
-Таймер звенит	Белый	Fast Pulse
-🔧 Устранение проблем
-Микрофон не работает
+Сущности в Home Assistant <br>
+Сущность	Тип	Описание <br>
+Media Player	media_player	Основной медиаплеер <br>
+Mute	switch	Отключение звука <br>
+Mute microphone	switch	Отключение микрофона <br>
+Wake sound	switch	Звук при активации <br>
+Status LED	light	Светодиодный индикатор <br> 
+Wake word sensitivity	select	Чувствительность wake word <br>
+Noise Suppression Level	number	Уровень шумоподавления (0-4) <br>
+Auto Gain	number	Автоматическое усиление (0-31) <br>
+Volume Multiplier	number	Множитель громкости (0.5-3.0) <br>
+Индикация состояний <br>
+Состояние	Цвет LED	Эффект <br>
+Инициализация	Зеленый	Fast Pulse <br>
+Ожидание команды	Синий	Slow Pulse <br>
+Слушание	Синий	Fast Pulse <br>
+Обработка	Синий	Нет <br>
+Ответ	Синий	Нет <br>
+Ошибка	Красный	Fast Pulse <br>
+Mute	Красный	Нет <br>
+Таймер активен	Белый	Slow Pulse <br>
+Таймер звенит	Белый	Fast Pulse <br>
+
+🔧 Устранение проблем <br>
+Микрофон не работает 
 Проверьте питание (3.3V)
 
 Проверьте подключение L/R:
@@ -135,17 +136,8 @@ Wake word не работает
 
 Уменьшите нагрузку (отключите ненужные компоненты)
 
-Используйте качественный блок питания (5V 2A)
+Используйте качественный блок питания
 
-📦 Структура файлов
-text
-.
-├── voice-assistant.yaml    # Основная конфигурация ESPHome
-├── secrets.yaml            # Секретные данные (WiFi, API)
-├── README.md               # Этот файл
-└── docs/
-    ├── schematic.png       # Схема подключения
-    └── wiring.jpg          # Фото сборки
 📄 Лицензия
 MIT License
 
