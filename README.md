@@ -49,8 +49,9 @@ GPIO4 ─────── SD (Data) <br>
 GPIO6 ─────── WS (Word Select) <br>
 GPIO7 ─────── SCK (Clock) <br>
 3.3V ──────── VDD <br>
-GND ───────── GND
-L/R → GND L/R → 3.3V <br>
+GND ───────── GND <br>
+L/R → GND <br>
+L/R → 3.3V <br>
 
 ### Подключение динамика (MAX98357)
 ESP32-S3 MAX98357 <br>
